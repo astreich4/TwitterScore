@@ -1,11 +1,13 @@
 Project Pitches:
 
-Our main idea is to create a web app that is an interactive competitive university ranking system. 
-We think that the apps that do best are the ones that interweave competition into social media. 
-We hope to create this ranking based off of many factors, those of which include academics, social life, 
-sport teams, active influencers, etc. Universities will have opportunities to earn badges and increase their 
-rankings based off of the number of users each school has, as well as the qualifications that each user brings 
-to support their college. We believe this will have a high expansion rate and will spark positive competition
+Our main idea is to create a web app that is an interactive and competitive social media ranking system. 
+We think that an app which can interweave friendly competition into social media will definately peak the interests of many.
+Our web app will generate user scores based on provided social media accounts, and give the user oppertunity to see scores 
+of friends who have also used the service. The Web app will aslo feature the oppertunity for a user to add their individual 
+score to benefit a larger group such as a university. We hope to use this user generated ranking and potentially other factors 
+such as academics, sport teams, active influencers, etc to build Univserity rankings as well. Universities will have opportunities 
+to earn badges and increase their rankings based off of the number of users each school has, as well as the qualifications that 
+each user brings to support their college. We believe this will have a high expansion rate and will spark positive competition
 amongst college aged students. This could easily have roots in Boston, having many surrounding colleges and 
 universities to kickstart our idea.
 
