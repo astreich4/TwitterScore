@@ -1,5 +1,18 @@
 Project Pitches:
 
-Our main idea is to create a web app that is an interactive competitive university ranking system. We think that the apps that do best are the ones that interweave competition into social media. We hope to create this ranking based off of many factors, those of which include academics, social life, sport teams, active influencers, etc. Universities will have opportunities to earn badges and increase their rankings based off of the number of users each school has, as well as the qualifications that each user brings to support their college. We believe this will have a high expansion rate and will spark positive competition amongst college aged students. This could easily have roots in Boston, having many surrounding colleges and universities to kickstart our idea.
+Our main idea is to create a web app that is an interactive competitive university ranking system. 
+We think that the apps that do best are the ones that interweave competition into social media. 
+We hope to create this ranking based off of many factors, those of which include academics, social life, 
+sport teams, active influencers, etc. Universities will have opportunities to earn badges and increase their 
+rankings based off of the number of users each school has, as well as the qualifications that each user brings 
+to support their college. We believe this will have a high expansion rate and will spark positive competition
+amongst college aged students. This could easily have roots in Boston, having many surrounding colleges and 
+universities to kickstart our idea.
 
-Our secondary idea is to consolidate all of the trending topics from different social media apps or news outlets into one easily accessible web app. Instead of having to go to twitter to see trending topics, exit out, open up instagram, type in a hashtag for the same topic- our app will get rid of this inefficiency and make it much easier for a user to search for a topic and pull all of the related social media news. This differs from other search engines in that we seek to pull trending topics and provide quick access to hashtags or topics from social media in particular i.e. twitter, instagram, snapchat news, youtube, etc. We believe there is nothing with this level of accessibility and efficiency on the market yet.
+Our secondary idea is to consolidate all of the trending topics from different social media apps or news 
+outlets into one easily accessible web app. Instead of having to go to twitter to see trending topics, 
+exit out, open up instagram, type in a hashtag for the same topic- our app will get rid of this inefficiency 
+and make it much easier for a user to search for a topic and pull all of the related social media news. 
+This differs from other search engines in that we seek to pull trending topics and provide quick access 
+to hashtags or topics from social media in particular i.e. twitter, instagram, snapchat news, youtube, etc. 
+We believe there is nothing with this level of accessibility and efficiency on the market yet.
