@@ -1,0 +1,8 @@
+### Primary Story 1 - User Account Creation ###
+
+As a user, I have visited this site and would like to create a new account and access the primary home page of the site.
+
+### Description ###
+
+- things that are supposed to happen
+- things that happen when you don't do it right

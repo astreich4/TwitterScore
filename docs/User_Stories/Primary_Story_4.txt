@@ -1,0 +1,8 @@
+### Primary Story 4 - User Friend Score Lookup ###
+
+As a user, I would like to access the score of my friends who have used the site and look up a specific friend in that list.
+
+### Description ###
+
+- things that are supposed to happen
+- things that happen when you don't do it right

@@ -1,0 +1,8 @@
+### Primary Story 4 - User Join and Access University Scores ###
+
+As a user, I would like to access the score of all universities on the site with search as well as join a university which I have not yet done so.
+
+### Description ###
+
+- things that are supposed to happen
+- things that happen when you don't do it right

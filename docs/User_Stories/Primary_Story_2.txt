@@ -1,0 +1,8 @@
+### Primary Story 2 - User Log in to Existing Account ###
+
+As a user, I have already created an account for this site and would like to log in and proceed to the dashboard of the site.
+
+### Description ###
+
+- things that are supposed to happen
+- things that happen when you don't do it right
