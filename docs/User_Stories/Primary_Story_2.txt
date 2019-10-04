@@ -1,8 +1,11 @@
 ### Primary Story 2 - User Log in to Existing Account ###
 
-As a user, I have already created an account for this site and would like to log in and proceed to the dashboard of the site.
+As a logged in user who has not been too the site before, I want a prompt to appear saying "Add Social Media Accounts" that will direct me to an edit linked profiles page.
+
 
 ### Description ###
 
-- things that are supposed to happen
+The user will be prompted from the dashboard by a box saying "Add Social Media Accounts!" and then after clicking the redirect button be sent to a page where they can add and remove social media accounts. At the top of the page it will display the name from the google account that they used to log in and then options for adding or removing only Facebook, Twitter, and Instagram. Once the user has complete editing the page they press a button that redirects them to the dashboard.
+
+
 - things that happen when you don't do it right
