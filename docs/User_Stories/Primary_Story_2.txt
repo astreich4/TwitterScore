@@ -6,12 +6,12 @@ appear saying "Add Social Media Accounts" that will direct me to an edit linked 
 
 ### Description ###
 
-The user will be prompted from the dashboard by a box saying "Add Social Media Accounts!" if none are found 
-linked to the profile, and then after clicking the redirect button  will be sent to a page where they can add 
-and remove social media accounts. At the top of the page it will display the name from the google account 
+The user will be prompted from the dashboard in the center profile window by a box saying "Add Social Media Accounts!" 
+if none are found linked to the profile, and then after clicking the redirect button  will be sent to a page where they 
+can add and remove social media accounts. At the top of the page it will display the name from the google account 
 that they used to log in and then options for adding or removing Facebook, Twitter, and Instagram accounts. 
 Once the user has complete editing the page they press a button that saves changes and redirects them to 
 the dashboard.
 
 If the User enters a Facebook, Twitter, or Instragram profile that can not be found or traced, the User will 
-recieve a could not resolve account message and not be redirected back to the dashboard
+recieve a could not resolve account message and not be redirected back to the dashboard.
