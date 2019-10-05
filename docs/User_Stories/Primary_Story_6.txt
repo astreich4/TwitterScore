@@ -1,8 +1,11 @@
 ### Primary Story 6 - User Access University Scores ###
 
-As a logged in user, from the dashboard I would like to access the score of all universities on the site as well as join a university which I have not yet done so.
+As a logged in user, from the dashboard I would like to access the score of all universities on the site as 
+well as join a university which I have not yet done so.
 
 ### Description ###
 
-In the Dashboard panel for the University section there will be an "Expand" button at the bottom. When clicked this will bring the user to a page containing either a map or a list (implementation not decided on yet) of University rankings. Additionally there will be a field where you can type in a University to "join" them. There will also be a button that when pressed will return the user to the dashboard.
-- things that happen when you don't do it right
+In the Dashboard panel for the University section there will be an "Expand" button at the bottom. When clicked this will bring
+the user to a page containing either a map or a list (implementation not decided on yet) of University rankings. Additionally
+there will be a field where you can type in a University to "join" them. There will also be a button that when pressed will
+return the user to the dashboard.
