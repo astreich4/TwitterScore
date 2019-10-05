@@ -1,8 +1,16 @@
-### Primary Story 3 - User Update Existing Account ###
+### Primary Story 3 - User Dashboard Interactions ###
 
-As a user, I have already created an account for this site and would like to add or remove a social media account associated with my site account.
+As a user, I have already created an account and have linked social medias. I would like to see my generated media 
+scoring as well as scores of my friends and popular universities.
 
 ### Description ###
 
-- things that are supposed to happen
-- things that happen when you don't do it right
+Upon returning to the dashboard after creating and linking social media accounts to site account, see previous stories, 
+the User will be presented with the Dashboard. The Dashboard will consist of three panels labeled Friends, Profile, and
+Universities. The User's score will be presented in large numbers in the center of the Profile tab in the middle of the
+screen. Scrolling down from the score, additional statistics and badges may be provided underneath the large overall score.
+The leftmost panel on the page will be a friends panel. The user will see names and scores of friends who have made accounts
+in the web page ranked. Friends will be pulled from the Users associated social media. The rightmost panel will show the
+scores of top ranking Universities if the User is unassociated, or show the ranking of the User's university depending on
+whether they have joined one or not. Each side panel will have a button redirecting to that panels additional information
+page. The center panel will have a button at the bottom to access User preferences and account information.
