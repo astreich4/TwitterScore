@@ -1,16 +1,17 @@
 ### Primary Story 2 - User Log in to Existing Account ###
 
-As a logged in user who has not been too the site before, I want a prompt to appear saying 
-"Add Social Media Accounts" that will direct me to an edit linked profiles page.
+As a logged in user with a newly created profile, I want to add social medias to my account via a prompt to 
+appear saying "Add Social Media Accounts" that will direct me to an edit linked profiles page.
 
 
 ### Description ###
 
-The user will be prompted from the dashboard by a box saying "Add Social Media Accounts!" 
-and then after clicking the redirect button be sent to a page where they can add and remove 
-social media accounts. At the top of the page it will display the name from the google account 
-that they used to log in and then options for adding or removing only Facebook, Twitter, and 
-Instagram. Once the user has complete editing the page they press a button that redirects them 
-to the dashboard.
+The user will be prompted from the dashboard by a box saying "Add Social Media Accounts!" if none are found 
+linked to the profile, and then after clicking the redirect button  will be sent to a page where they can add 
+and remove social media accounts. At the top of the page it will display the name from the google account 
+that they used to log in and then options for adding or removing Facebook, Twitter, and Instagram accounts. 
+Once the user has complete editing the page they press a button that saves changes and redirects them to 
+the dashboard.
 
-- things that happen when you don't do it right
+If the User enters a Facebook, Twitter, or Instragram profile that can not be found or traced, the User will 
+recieve a could not resolve account message and not be redirected back to the dashboard
