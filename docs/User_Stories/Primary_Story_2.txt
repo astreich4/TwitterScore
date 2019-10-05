@@ -1,4 +1,4 @@
-### Primary Story 2 - User Log in to Existing Account ###
+### Primary Story 2 - User Log in and link Social Medias to Existing Account ###
 
 As a logged in user with a newly created profile, I want to add social medias to my account via a prompt to 
 appear saying "Add Social Media Accounts" that will direct me to an edit linked profiles page.
