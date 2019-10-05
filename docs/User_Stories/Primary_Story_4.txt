@@ -1,9 +1,14 @@
 ### Primary Story 4 - User Update Existing Account ###
 
-As a logged in user, I am on the dashboard and would like to add or remove a social media account associated with my site account.
+As a logged in user, I am on the dashboard and would like to add or remove a social media account associated 
+with my site profile.
 
 ### Description ###
 
-In the panel on the dashboard for the user there will be an "Edit" button at the bottom. After the user clicks this they are directed to the same page they saw after they created their account. It will give them the options to add and remove social media accounts. At the top of the page it will display the name from the google account that they used to log in and then options for adding or removing only Facebook, Twitter, and Instagram. Once the user has complete editing the page they press a button that redirects them to the dashboard.
-
-- things that happen when you don't do it right
+In the panel on the dashboard for the user there will be an "Edit" button at the bottom. After the user clicks this they 
+are directed to the same page they saw after they created their account. It will give them the options to add and remove
+social media accounts. At the top of the page it will display the name from the google account that they used to log in 
+and then options for adding or removing only Facebook, Twitter, and Instagram. Once the user has complete editing the 
+page they press a button that redirects them to the dashboard. Additional options and preferences will also be made 
+available underneath the associated account information. If social media accounts are not found or unable to be pinged 
+for data collection, the User will be prompted, see linking social medias to user primary story.
