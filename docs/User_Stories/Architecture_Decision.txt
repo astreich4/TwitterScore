@@ -1,0 +1,9 @@
+Based on the app we are trying to build and previous experience of the team, our group has decided to go with a Flask Python
+server with an Angular front end app. We believe that this architecture is the correct choice for multiple reasons. We plan
+on using Angular for our front end web application so that information may be exchanged or updated without the need for page
+refreshes. Angular will also allow more freedom in the interactivity and design of the front end application. In the decision
+to chose a Flask backend, we took into consideration the skill level and familiarity of languages to each of our team members
+and decided a Python web server would be the best option. Our secondary canidate for a backend architecture was utilizing Node,
+however, not all members of our team are fully familiar with javascript, and as a result would rather work in Python, a language 
+most are very familiar with. Despite most members of the group having a fairly thorough understanding of Python however, none 
+have used a Flask web server before, and so hosting a web application is new territory for all members of the group.
