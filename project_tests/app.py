@@ -19,7 +19,7 @@ def score():
     timeline = gettime(id)
     number = getscore(timeline)
     ans = getfact(number)
-    return render_template('score.html', obj=ans)
+    return render_template('score.html', fact=ans,scr = number)
 
 
 if __name__ == '__main__':
