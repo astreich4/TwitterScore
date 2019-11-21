@@ -74,13 +74,15 @@ def home():
         #check if its the same
         test = request.cookies.get('id')
         comp = db.users.find_one({"atshash": test})
-        comp = comp["atshash"]
+        #comp = comp["atshash"]
         print(test)
+        print(comp["atshash"])
         print(comp)
-        if test == comp:
-            resp = make_response("user logged on")
+        if test == comp["atshash"]:
+            resp = make_response(render_template("home.html",uname=comp["screen_name"]))
+            resp.set_cookie('id', value=test, httponly=True)
         else:
-            #print("error 1")
+            print("error 1")
             abort(401)
     else:
         print("error2")
@@ -89,11 +91,31 @@ def home():
 
 @app.route('/score', methods=['POST','GET'])
 def score():
-    id = request.form['Username']
-    timeline = funcs.gettime(id)
-    number = funcs.getscore(timeline)
-    ans = funcs.getfact(number)
-    return render_template('score.html', fact=ans, scr=number)
+    if 'id' in request.cookies:
+        #check if its the same
+        test = request.cookies.get('id')
+        comp = db.users.find_one({"atshash": test})
+        #comp = comp["atshash"]
+        print(test)
+        print(comp["atshash"])
+        print(comp)
+        if test == comp["atshash"]:
+
+            at = comp["access_token"]
+            ats = comp["access_token_secret"]
+
+            timeline = funcs.gettime(at, ats)
+            number = funcs.getscore(timeline)
+            ans = funcs.getfact(number)
+            resp = make_response(render_template('score.html', fact=ans, scr=number))
+            resp.set_cookie('id', value=test, httponly=True)
+        else:
+            print("error 1")
+            abort(401)
+    else:
+        print("error2")
+        abort(401)
+    return resp
 
 
 if __name__ == '__main__':
