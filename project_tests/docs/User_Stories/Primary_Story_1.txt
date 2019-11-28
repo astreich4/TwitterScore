@@ -1,0 +1,14 @@
+### Primary Story 1 - User Account Login/Creation ###
+
+As a user, I have visited this site and would like to create a new account or login to an existing account to access 
+the primary dashboard of the site.
+
+### Description ###
+
+Upon accessing the web app page the User is presented with a Google login prompt with fields for Username and Password as
+well as two buttons, to log in with an existing account, or to create a new account. Once entering in the correct username
+and password for their Google account they would hit the "log in" button and is then redirected to the dashboard page. The
+dashboard page will open and consist of 3 main panels; Friends, Profile, and University. 
+
+If the User enters a valid Google profile and tries to log in before having created an account, the page will prompt the 
+user that no local profile exists for that google account and ask them instead to create a profile.

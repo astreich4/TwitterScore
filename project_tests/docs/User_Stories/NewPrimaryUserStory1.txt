@@ -1,0 +1,21 @@
+### New Primary User Story 1 ###
+
+As a logged in user, I am on the homepage and want to have my score and fact displayed.
+
+### Description ###
+
+In the center of the page will be a "Calculate" button. Once the user clicks this button there will be a call to the Twitter API to receive a JSON back of the users last 100 tweets. That will then be parsed and a score computed. The score will then be sent to the fact API and a fact returned. The fact and the score will be displayed once computed on the page to the user above the "Calculate" button.
+
+Happy Path
+1. User hits button
+2. Twitter successfully retrieves 100 tweets
+3. Numbers API successfully returns fact
+4. Content is displayed on screen
+
+Things that could go wrong:
+Twitter is unable to get 100 tweets.
+	1. If the issue is the user has less than 100 tweets, the app will continue to run as normal, but just with less data.
+	2. If the user has no Tweets then instead of a score and fact being displayed an error message will be displayed.
+Fact API does not return a fact.
+	1. An error message saying no fact was found and the correctly computed score will be shown.
+	 

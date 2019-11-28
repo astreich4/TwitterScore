@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Score</title>
+</head>
+<body>
+<p>Hello,</p>
+{{uname}}
+<p>Click for your score:</p>
+<form action="{{ url_for('score')}}" method="post">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

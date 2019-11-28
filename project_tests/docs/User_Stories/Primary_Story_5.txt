@@ -1,0 +1,13 @@
+### Primary Story 5 - User Friend Score Lookup ###
+
+As a user, I would like to access the score of my friends who have used the site and look up a specific friend in that list.
+
+### Description ###
+
+The User once logged in and linking account to social medias will have access to the friend tab on the dashboard, see log in
+and link account primary stories. The dashboard will feature a friend panel displaying a few top public scores of friends,
+pulled from social medias, who have also used the site to generate a score. Upon clicking on the friend tab the User will be
+directed to the friend directory page listing the scores of all friends in the database found with public scores, see privacy
+secondary story for detail. The User will then have the option to click on a friend which would display some more detailed
+information from their profile, or scroll through the list of all friends. The User will also have access to a search bar at
+the top of the page which will search and sort friends using their names.
