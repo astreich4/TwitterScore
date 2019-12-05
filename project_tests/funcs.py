@@ -25,6 +25,8 @@ def getscore(timeline):
     while count < numtweets:
         temptweet = timeline[count]._json
         favcount += temptweet["favorite_count"]
+        print(temptweet["text"])
+        print(temptweet["favorite_count"])
         count += 1
     return favcount
 

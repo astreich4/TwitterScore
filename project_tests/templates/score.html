@@ -5,6 +5,12 @@
     <title>Score</title>
 </head>
 <body>
+
+<ul class="Navigation">
+    <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+    <li><a href="{{ url_for('home') }}">Back</a></li>
+</ul>
+
 <p>The fact from your score:</p>
 {{fact}}
 <p>Your score:</p>

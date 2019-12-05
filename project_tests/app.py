@@ -117,6 +117,30 @@ def score():
         abort(401)
     return resp
 
+@app.route("/logout")
+def logout():
+    if 'id' in request.cookies:
+        #check if its the same
+        test = request.cookies.get('id')
+        comp = db.users.find_one({"atshash": test})
+        #comp = comp["atshash"]
+
+        if test == comp["atshash"]:
+
+            print(test)
+            print(comp["atshash"])
+            print(comp)
+            users.remove(comp)
+            resp = make_response(redirect('/'))
+
+        else:
+            print("error 1")
+            abort(401)
+    else:
+        print("error2")
+        abort(401)
+    return resp
+
 
 if __name__ == '__main__':
     sess.init_app(app)
