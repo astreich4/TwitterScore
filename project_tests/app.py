@@ -13,6 +13,7 @@ consumer_secret = configs.consumer_secret1
 
 callback = 'http://127.0.0.1:5000/oauthhome'
 
+
 app = Flask(__name__)
 sess = Session()
 app.config.from_object("configs.Config")

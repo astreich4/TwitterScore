@@ -2,19 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Score</title>
+    <style>
+    #hover{
+    /* change these properties to whatever you want */
+    background-color: royalblue;
+    color: #fff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    font-size:13px;
+    text-transform: uppercase;
+    text-align:center;
+    border-radius: 12px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+
+    }
+    #hover:hover{
+        background-color: white;
+        color: royalblue;
+        border-radius: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+    h1 {
+        font-family: 'Sulphur Point', sans-serif;
+    }
+    a:link {
+        text-decoration: none;
+        color: lightskyblue;
+        font-family: 'Raleway', sans-serif;
+    }
+    a:hover {
+        color: royalblue;
+        font-family: 'Raleway', sans-serif;
+    }
+    body {
+        background: url('../static/cool-background.png') no-repeat center center fixed;
+        min-height: 100%}
+    section {
+        background: lightsteelblue;
+        color: white;
+        border-radius: 1em;
+        font: 15px arial, sans-serif;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+  </style>
+
 </head>
 <body>
 
 <ul class="Navigation">
-    <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+    <a href="{{ url_for('logout') }}">Sign Out</a>
 </ul>
+<section>
+    <h1>Hello, {{uname}}!</h1>
+    <form action="{{url_for('score')}}" method="post">
+    <input type="submit" value="Click here for your score" id="hover" style="display: block; margin: 0 auto;">
+    </form>
+  </section>
 
-<p>Hello,</p>
-{{uname}}
-<p>Click for your score:</p>
-<form action="{{ url_for('score')}}" method="post">
-<input type="submit" value="Submit">
-</form>
 </body>
 </html>
