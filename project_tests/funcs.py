@@ -1,8 +1,8 @@
 import requests
 import tweepy
-
 import configs
 
+#loads the keys from the config file
 consumer_key = configs.consumer_key1
 consumer_secret = configs.consumer_secret1
 
@@ -12,12 +12,13 @@ def gettime(at ,ats):
     auth.set_access_token(at, ats)
     api = tweepy.API(auth)
     timeline = api.user_timeline()
+    #print(timeline)
     return timeline
 
 
 def getscore(timeline):
     #custom score algo, currently just a sum of your most recent favorites
-    print(len(timeline))
+    #print(len(timeline))
     numtweets = len(timeline)
     temp = timeline[0]._json
     count = 0
@@ -25,8 +26,8 @@ def getscore(timeline):
     while count < numtweets:
         temptweet = timeline[count]._json
         favcount += temptweet["favorite_count"]
-        print(temptweet["text"])
-        print(temptweet["favorite_count"])
+        #print(temptweet["text"])
+        #print(temptweet["favorite_count"])
         count += 1
     return favcount
 
