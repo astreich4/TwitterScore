@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Set up the html calls for CSS styles-->
+    <!--Set up body and section design in CSS style templates-->
+    <!--Includes hovering style for links and calls background image-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,10 +15,9 @@
     <title>Score</title>
     <style>
     #hover{
-    /* change these properties to whatever you want */
     background-color: royalblue;
     color: #fff;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     position: relative;
@@ -64,6 +67,8 @@
 </head>
 <body>
 
+<!--Create a navigational link to move back to front.html-->
+<!--Render the page with a title twitter username and link to score.html with final rating-->
 <ul class="Navigation">
     <a href="{{ url_for('logout') }}">Sign Out</a>
 </ul>
