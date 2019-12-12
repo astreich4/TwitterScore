@@ -1,14 +1,16 @@
-### Primary Story 1 - User Account Login/Creation ###
+### Primary Story 1 - User Account Login ###
 
-As a user, I have visited this site and would like to create a new account or login to an existing account to access 
-the primary dashboard of the site.
+As a user, I have visited this site and would like to  login to an existing Twitter account to access 
+the primary features of the site.
 
 ### Description ###
 
-Upon accessing the web app page the User is presented with a Google login prompt with fields for Username and Password as
-well as two buttons, to log in with an existing account, or to create a new account. Once entering in the correct username
-and password for their Google account they would hit the "log in" button and is then redirected to the dashboard page. The
-dashboard page will open and consist of 3 main panels; Friends, Profile, and University. 
+Upon accessing the web app page the User is presented with a welcome message and a button redirect to login with a
+Twitter account. When clicking the button the user will be redirected to Twitter's approved developer app login page 
+where they can either indicate that they would like to approve the app if already logged in, or be asked to login to
+Twitter. The User will then be redirected back to the home page of our web app with a welcome message addressing the
+username featured in the used Twitter login
 
-If the User enters a valid Google profile and tries to log in before having created an account, the page will prompt the 
-user that no local profile exists for that google account and ask them instead to create a profile.
+If the User does not enter a valad Twitter username they will remain on Twitter's login page until valad credentials are
+entered. If the User travels back to the web app they will be presented with the same redirect shown previously until 
+they successfully login.
