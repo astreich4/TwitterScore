@@ -9,7 +9,7 @@ Upon accessing the web app page the User is presented with a welcome message and
 Twitter account. When clicking the button the user will be redirected to Twitter's approved developer app login page 
 where they can either indicate that they would like to approve the app if already logged in, or be asked to login to
 Twitter. The User will then be redirected back to the home page of our web app with a welcome message addressing the
-username featured in the used Twitter login
+username featured in the used Twitter login.
 
 If the User does not enter a valad Twitter username they will remain on Twitter's login page until valad credentials are
 entered. If the User travels back to the web app they will be presented with the same redirect shown previously until 
