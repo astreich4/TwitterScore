@@ -1,17 +1,10 @@
-### Primary Story 2 - User Log in and link Social Medias to Existing Account ###
+### Primary Story 2 - User Click to access score ###
 
-As a logged in user with a newly created profile, I want to add social medias to my account via a prompt 
-saying "Add Social Media Accounts" that will direct me to an edit linked profiles page.
-
+As a logged in user with an existing Twitter profile, I want to find the score and fact associated with the results pulled from my Twitter timeline
 
 ### Description ###
 
-The user will be prompted from the dashboard in the center profile window by a box saying "Add Social Media Accounts!" 
-if none are found linked to the profile, and then after clicking the redirect button  will be sent to a page where they 
-can add and remove social media accounts. At the top of the page it will display the name from the google account 
-that they used to log in and then options for adding or removing Facebook, Twitter, and Instagram accounts. 
-Once the user has complete editing the page they press a button that saves changes and redirects them to 
-the dashboard.
-
-If the User enters a Facebook, Twitter, or Instragram profile that can not be found or traced, the User will 
-recieve a could not resolve account message and not be redirected back to the dashboard.
+The user will be prompted from the dashboard in the center profile window by a box saying "Click here for your score!" 
+and then after clicking the redirect button  will be sent to a page where they can view the score returned from analyzing
+the Twitter timeline as well as a score underneath. If the APIs are unable to pull a Twitter timeline or score a 
+message reading that no score or fact can be found will be displayed.
