@@ -1,13 +1,12 @@
-### Primary Story 5 - User Friend Score Lookup ###
+### Primary Story 5 - User Log Out ###
 
-As a user, I would like to access the score of my friends who have used the site and look up a specific friend in that list.
+As a user, I would like to log out of this Web Application.
 
 ### Description ###
 
-The User once logged in and linking account to social medias will have access to the friend tab on the dashboard, see log in
-and link account primary stories. The dashboard will feature a friend panel displaying a few top public scores of friends,
-pulled from social medias, who have also used the site to generate a score. Upon clicking on the friend tab the User will be
-directed to the friend directory page listing the scores of all friends in the database found with public scores, see privacy
-secondary story for detail. The User will then have the option to click on a friend which would display some more detailed
-information from their profile, or scroll through the list of all friends. The User will also have access to a search bar at
-the top of the page which will search and sort friends using their names.
+Once on the Score and Fact page, after the User has recieved information pulled from our APIs they will have a choice to Sign
+Out using a botton in the top left corner of the application. This button is also featured on the Home page/Greeting page 
+where the User pressed a button to recieve their score. Whenever a User is logged in they may only access pages where this 
+button is present. Upon hitting the log out button the User is kicked back to the initial login screen an all cookies of their
+login are removed from the database using the associated username as a lookup. Any User will then need to log in again to 
+access features of the app
