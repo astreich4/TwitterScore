@@ -1,16 +1,12 @@
 ### Primary Story 3 - User Dashboard Interactions ###
 
-As a user, I have already created an account and have linked social medias. I would like to see my generated media 
-scoring as well as scores of my friends and popular universities.
+As a user, I have already signed in with an account but have left the web page but continue to remain in the same session and
+navigate back to the home page.
 
 ### Description ###
 
-Upon returning to the dashboard after creating and linking social media accounts to site account, see previous stories, 
-the User will be presented with the Dashboard. The Dashboard will consist of three panels labeled Friends, Profile, and
-Universities. The User's score will be presented in large numbers in the center of the Profile tab in the middle of the
-screen. Scrolling down from the score, additional statistics and badges may be provided underneath the large overall score.
-The leftmost panel on the page will be a friends panel. The user will see names and scores of friends who have made accounts
-in the web page ranked. Friends will be pulled from the Users associated social media. The rightmost panel will show the
-scores of top ranking Universities if the User is unassociated, or show the ranking of the User's university depending on
-whether they have joined one or not. Each side panel will have a button redirecting to that panels additional information
-page. The center panel will have a button at the bottom to access User preferences and account information.
+Upon returning to the dashboard after logging in to our page through Twitter authentication, as long as the User continues 
+to have the cookie placed by our web app in their session, they will be seen as a logged in User and greeted again. When 
+the User is authenticated the User's Twitter username and a secret placed in the cookie is also stored in our backend 
+database which verifies that the user is logged in when accessing the dashboard of the web application. The User is 
+checked for logged in credentials each time the Home page is visited
