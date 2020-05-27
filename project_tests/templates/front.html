@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Set up the html calls for CSS styles-->
+    <!--Set up body and section design in CSS style templates-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Front</title>
+    <style>
+    body {
+        background: url('../static/cool-background.png') no-repeat center center fixed;
+        min-height: 100%}
+    section {
+        font-family: 'Sulphur Point', sans-serif;
+        background: lightsteelblue;
+        color: white;
+        border-radius: 1em;
+        font: 15px arial, sans-serif;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+        h1 {
+            font-family: 'Sulphur Point', sans-serif;
+        }
+  </style>
+</head>
+<body>
+	<!--Render the page with a title and link to the twitter API-->
+<section>
+    <h1>THE SOCIAL FACT</h1>
+    <p align="center"><a href="{{ url_for('auth') }}">Click here to log in with Twitter.</a> </p>
+  </section>
+</body>
+</html>
